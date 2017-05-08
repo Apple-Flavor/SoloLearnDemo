@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>font</title>
+    </head>
+    <style media="screen">
+        .italic{
+            font-style: italic;
+            /*font-size: 1.25em;*/
+            /*browser default font-size:16px
+              em = pixels / 16;
+            */
+            font-size: 16px;
+        }
+    </style>
+    <body>
+        <p class="italic">This is a paragraph in italic style.</p>
+        <div>
+            <p style="font-weight:normal;">normal</p>
+            <p style="font-weight:bold;">bold</p>
+            <p style="font-weight:bolder;">bolder</p>
+            <p style="font-weight:lighter;">lighter</p>
+            <p style="font-weight:100;">100</p>
+            <p style="font-weight:900;">900</p>
+        </div>
+        <div class="">
+            <p style="font-variant: normal;">Paragraph for font-variant: normal</p>
+            <p style="font-variant: small-caps;">Paragraph for font-variant: small-caps</p>
+            <p style="font-variant: inherit;">Paragraph for font-variant: inherit</p>
+        </div>
+        <div class="">
+            <table border="1" cellpadding="2" cellspacing="0" style="height: 150px;">
+              <tr>
+                 <td style="vertical-align: top;">Top</td>
+                 <td style="vertical-align: middle;">Middle</td>
+                 <td style="vertical-align: bottom;">Bottom</td>
+              </tr>
+            </table>
+            <p>This is an <span style="vertical-align: baseline;">inline text</span> example.</p>
+            <p>This is a <span style="vertical-align: sub;">sub line text</span> example.</p>
+            <p> This is a <span style="vertical-align: super;">super line text</span> example.</p>
+            <p> This is a <span style="vertical-align: -10px;">pixel</span> example.</p>
+        </div>
+        <div style="color: blue;">
+            <p style="text-decoration: none;">text-decoration: none</p>
+            <p style="text-decoration: inherit;">text-decoration: inherit</p>
+            <p style="text-decoration: overline;">text-decoration: overline</p>
+            <p style="text-decoration: underline;">text-decoration: underline</p>
+            <p style="text-decoration: line-through;">text-decoration: line-through</p>
+            <s>HTML S tag</s>
+            <p style="text-decoration: blink;">text-decoration: blink maybe deprecated</p>
+            <p style="text-indent:60px;">text-indent positive</p>
+            <p style="text-indent:-60px;">text-indent negative</p>
+            <h1 style="text-shadow:5px 2px 4px grey;">text-shadow</h1>
+
+
+        </div>
+        <div class="">
+            <p style="text-transform: capitalize;">
+                The value capitalize transforms the first
+                character in each word to uppercase;
+                all other characters remain unaffected.
+            </p>
+            <p style="text-transform: uppercase;">This value transforms all characters to uppercase.</p>
+            <p style="text-transform: lowercase;">This value transforms all characters to lowercase.</p>
+            <p style="letter-spacing: normal">letter-spacing normal</p>
+            <p style="letter-spacing: 4px">letter-spacing 4px</p>
+            <p style="letter-spacing: -4px">letter-spacing -4px</p>
+            <p style="letter-spacing: 1cm">letter-spacing 1cm</p>
+
+            <p style="word-spacing: 4px">word spacing 4px</p>
+            <p style="word-spacing: -4px">word spacing -4px</p>
+            <p style="word-spacing: 1cm">word spacing 1cm</p>
+
+            <p style="white-space: pre-wrap">
+                <!-- pre;pre-line;pre-wrap;nowrap;noraml  -->
+                <!--  style="white-space: nowrap;" -->
+     This paragraph has         multiple spaces      and
+a line break, but it will be ignored, as we used the nowrap value.
+            </p>
+
+        </div>
+    </body>
+</html>

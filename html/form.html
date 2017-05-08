@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>form</title>
+    </head>
+    <body>
+        <form  autocomplete="on">
+            <label>UserName:</label>
+            <input type="text" required/>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="example@163.com">
+
+            <label for="city">City:</label>
+            <input type="text" name="country_name" list="city" autofocus/>
+            <datalist id="city">
+                <option value="中国 北京">
+                <option value="中国 上海">
+                <option value="中国 广州">
+                <option value="中国 深圳">
+                <option value="中国 东莞">
+            </datalist>
+
+            <input id="mysearch" name="searchitem" type="search" list="colors"/>
+            <datalist id="colors">
+               <option value="Red">
+               <option value="Green">
+               <option value="Yellow">
+            </datalist>
+
+            <input type="submit" value="Submit"></input>
+
+        </form>
+    </body>
+</html>
