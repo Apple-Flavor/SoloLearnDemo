@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prompt Confirm</title>
+  </head>
+  <body>
+    <button type="button" onClick="promptdemo()">Test Prompt</button>
+    <button type="button" onClick="confirmdemo()">Test Confirm</button>
+    <script type="text/javascript">
+        function promptdemo(){
+          var user = prompt("Pls. input your name","john");
+          alert("your name: "+user);
+        };
+        function confirmdemo(){
+          var r = confirm("Do you accept ?");
+        };
+    </script>
+
+  </body>
+</html>

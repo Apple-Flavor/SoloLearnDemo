@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>object constructor</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function person(name,age,gender){
+        this.name=name;
+        this.age = age;
+        this.gender = gender;
+      }
+
+      var john = new person("john","35","male");
+      document.write(john.age);
+      document.write(john.gender);
+    </script>
+  </body>
+</html>

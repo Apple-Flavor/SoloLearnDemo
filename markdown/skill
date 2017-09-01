@@ -1,0 +1,21 @@
+#### 行开头4个空格，表示程序代码
+python:
+
+    def fun(x):
+        return x+y
+
+#### 列表嵌套
+- 列0
+ + 列00
+  - 列01
+  * 列02
+- 列1
+* 列2
+* 列3
+
+#### 超链接和图片
+[京东][1]
+![图灵社区][2]
+
+[1]:http://www.jd.com
+[2]:http://www.ituring.com.cn/Content/img/Turing.Gif

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Class Function</title>
+  </head>
+  <body>
+    <div class="">
+      <button type="button" name="button" onclick="add()">add</button>
+    </div>
+    <script type="text/javascript">
+      function CoolMath(){
+        this.add = function(a, b){
+          return a+b;
+        };
+      };
+      function add(){
+        var cm = new CoolMath();
+        var s = cm.add(4,5);
+        document.write(s);
+      };
+    </script>
+  </body>
+
+</html>

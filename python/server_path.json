@@ -1,0 +1,13 @@
+{
+
+  "com.saic.ivi.ADAS.Srv": ["/com/saic/ivi/ADAS/SrvCalibrate",
+    "/com/saic/ivi/ADAS/Srv/Calibrate",
+    "/com/saic/ivi/ADAS/Srv/Service"
+  ],
+  "com.saic.ivi.AMFMTuner": ["/com/saic/ivi/AFFMTuner"],
+  "com.saic.ivi.AudioManager": ["/com/saic/ivi/AudioManager/AudioFocus",
+    "/com/saic/ivi/AudioManager/EngineeringMode",
+    "/com/saic/ivi/AudioManager/Settings"
+  ]
+
+}
